@@ -7,7 +7,7 @@ def second_assignment():
         ex5=json.load(f)
 
         for x in ex5:
-            if x['name'] == 'Old Fashioned':
+            if x['name'] == 'Old Fashioned' and x['type'] == 'donut':
                 z=x['batters']['batter']
 
                 z.append({'id': '1003', 'type': 'Coffee'})
